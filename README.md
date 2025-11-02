@@ -1,16 +1,15 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**Kaito-labs/Kaito-labs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# 🌌 海斗 — *Kaito*
 
-Here are some ideas to get you started:
+![banner](./banner.svg)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🧠 About Me
+Creative developer exploring the intersection between **hardware and code**.  
+I build, I break, I learn — always chasing cleaner design and smarter systems.
+
+---
+
+🩵 *"Code is art. Hardware is poetry."*
+
+</div>
