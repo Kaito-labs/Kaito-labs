@@ -6,7 +6,6 @@
 
 ### 🧠 About Me
 Creative developer exploring hardware and code.  
-I build, break, and learn — always trying to make things cleaner and smarter.
 
 ---
 
