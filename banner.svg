@@ -1,26 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="120" viewBox="0 0 1200 120" preserveAspectRatio="xMidYMid meet">
   <style>
-    @keyframes scroll {
-      0% { transform: translateX(100%); }
-      100% { transform: translateX(-100%); }
-    }
-    @keyframes glow {
-      from { text-shadow: 0 0 10px #00eaff, 0 0 20px #00eaff, 0 0 30px #00eaff; }
-      to { text-shadow: 0 0 20px #00caff, 0 0 40px #00caff, 0 0 60px #00caff; }
-    }
     text {
       font-family: 'Fira Code', monospace;
       font-weight: 700;
       font-size: 48px;
       fill: #00eaff;
-      animation: scroll 22s linear infinite, glow 1.8s ease-in-out infinite alternate;
       white-space: nowrap;
+    }
+    .scroll {
+      animation: scroll 22s linear infinite;
+    }
+    .glow {
+      animation: glow 1.8s ease-in-out infinite alternate;
+    }
+    @keyframes scroll {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+    @keyframes glow {
+      from { text-shadow: 0 0 10px #00eaff, 0 0 20px #00eaff, 0 0 30px #00eaff; }
+      to { text-shadow: 0 0 20px #00caff, 0 0 40px #00caff, 0 0 60px #00caff; }
     }
   </style>
 
   <rect width="100%" height="100%" fill="#0b1220"/>
+
   <g>
-    <text x="100%" y="75%">海斗 — creative dev // hardware + code</text>
+    <!-- Dupliciamo il testo per loop continuo -->
+    <text x="0%" y="75%" class="scroll glow">海斗 — creative dev // hardware + code • 海斗 — creative dev // hardware + code •</text>
   </g>
 </svg>
