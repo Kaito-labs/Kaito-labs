@@ -14,7 +14,7 @@
       font-weight: 700;
       font-size: 48px;
       fill: #00eaff;
-      animation: scroll 24s linear infinite, glow 1.8s ease-in-out infinite alternate;
+      animation: scroll 22s linear infinite, glow 1.8s ease-in-out infinite alternate;
       white-space: nowrap;
     }
   </style>
