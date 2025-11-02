@@ -5,8 +5,8 @@
 ![banner](./banner.svg)
 
 ### 🧠 About Me
-Creative developer exploring the intersection between **hardware and code**.  
-I build, I break, I learn — always chasing cleaner design and smarter systems.
+Creative developer exploring hardware and code.  
+I build, break, and learn — always trying to make things cleaner and smarter.
 
 ---
 
