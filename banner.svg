@@ -6,28 +6,10 @@
       font-weight: 700;
       font-size: 48px;
       fill: #00eaff;
-      white-space: nowrap;
-    }
-    .scroll {
-      animation: scroll 22s linear infinite;
-    }
-    .glow {
-      animation: glow 1.8s ease-in-out infinite alternate;
-    }
-    @keyframes scroll {
-      0% { transform: translateX(0); }
-      100% { transform: translateX(-50%); }
-    }
-    @keyframes glow {
-      from { text-shadow: 0 0 10px #00eaff, 0 0 20px #00eaff, 0 0 30px #00eaff; }
-      to { text-shadow: 0 0 20px #00caff, 0 0 40px #00caff, 0 0 60px #00caff; }
+      text-shadow: 0 0 20px #00eaff, 0 0 40px #00eaff, 0 0 60px #00eaff;
     }
   </style>
 
   <rect width="100%" height="100%" fill="#0b1220"/>
-
-  <g>
-    <!-- Dupliciamo il testo per loop continuo -->
-    <text x="0%" y="75%" class="scroll glow">海斗 — creative dev // hardware + code • 海斗 — creative dev // hardware + code •</text>
-  </g>
+  <text x="50%" y="75%" text-anchor="middle">海斗 — creative dev // hardware + code</text>
 </svg>
