@@ -1,14 +1,13 @@
 <div align="center">
 
-# 🌌 海斗 — *Kaito*
+# 海斗 — Kaito
 
 ![banner](./banner.svg)
 
-### 🧠 About Me
-Creative developer exploring hardware and code.  
+A collection of projects, experiments, and ideas.
 
 ---
 
-🩵 *"Code is art. Hardware is poetry."*
+*"Invest in skills. Results will follow."*
 
 </div>
